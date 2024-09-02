@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Status Reader",
+  "version": "1.0",
+  "description": "A simple ChatGPT Status Reader Chrome extension.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
