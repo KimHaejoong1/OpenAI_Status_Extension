@@ -1,9 +1,8 @@
 {
   "manifest_version": 3,
   "name": "OpenAI Status Reader",
-  "version": "1.0",
+  "version": "1.01",
   "description": "A simple OpenAI Status Reader Chrome extension.",
-  "permissions": ["storage"],
   "icons": {
     "16": "images/icon16.png",
     "48": "images/icon48.png",
