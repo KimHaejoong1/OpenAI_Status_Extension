@@ -1,7 +1,7 @@
 #
 
 <div align="center">
-<img src="title.png" width="80 alt=""/>
+<img src="images/icon.webp" width="80 alt=""/>
 </div>
 
 # <div align="center">OpenAI_Status_Reader</div>
@@ -9,6 +9,10 @@
 > 김해중 개인 프로젝트
 >
 > 개발기간 : 2024. 08. ~ 09.
+>
+> 크롬스토어 최초 게시 : 2024.09.02.
+>
+> 마지막 업데이트 : 2024.09.04.
 
 ## 🛠️참여자
 
