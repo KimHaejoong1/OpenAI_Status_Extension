@@ -26,8 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
         if (description.includes("Resolved")) {
           statusMessage.textContent = "🟢 All Systems Operational";
           statusMessage.style.color = "green";
-        } else {
-          // Resolved가 없으면 오류 정보를 표시
+        } // Monitoring 또는 Update가 있을 경우 노란색 경고 표시
+        else if (description.includes("Monitoring") || description.includes("Update")) {
+          statusMessage.textContent = `🟡 ${title}\n${description}`;
+          statusMessage.style.color = "yellow";
+        } // 오류 최초 발생 빨간색 경고 표시
+        else {
           statusMessage.textContent = `🔴 ${title}\n${description}`;
           statusMessage.style.color = "red";
         }
